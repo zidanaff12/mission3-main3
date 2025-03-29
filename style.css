@@ -1,0 +1,552 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+}
+/* NAVBAR START----------------------------------------------------------------------------------- */
+nav {
+  background-color: rgba(24, 26, 28, 1);
+  color: white;
+}
+
+.container-navbar {
+  margin: 0 50px;
+  padding: 20px;
+  display: flex;
+}
+
+.cards1 {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: 50%;
+}
+
+.svg2 {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style-type: none;
+}
+
+.cards2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.profil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.img-profil {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.icon-profil {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 376px) {
+  .svg1 {
+    display: none;
+  }
+
+  .svg2 {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+
+  .container-navbar {
+    margin: 0 10px;
+    padding: 10px;
+  }
+
+  .cards1 {
+    gap: 10px;
+    font-size: 8px;
+    width: 100%;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  .profil {
+    gap: 5px;
+  }
+
+  .img-profil {
+    width: 15px;
+    height: 15px;
+    border-radius: 40px;
+  }
+
+  .icon-profil {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .svg1 {
+    display: none;
+  }
+
+  .svg2 {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .container-navbar {
+    margin: 0 10px;
+    padding: 10px;
+  }
+
+  .cards1 {
+    gap: 10px;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  .profil {
+    gap: 5px;
+  }
+
+  .img-profil {
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+  }
+
+  .icon-profil {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .svg1 {
+    display: none;
+  }
+
+  .svg2 {
+    display: block;
+    width: 45px;
+    height: 45px;
+  }
+
+  .container-navbar {
+    margin: 0 10px;
+    padding: 10px;
+  }
+
+  .cards1 {
+    gap: 10px;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  .profil {
+    gap: 5px;
+  }
+
+  .img-profil {
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+  }
+
+  .icon-profil {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1063px) {
+  .svg1 {
+    display: block;
+  }
+
+  .svg2 {
+    display: none;
+    width: 55px;
+    height: 55px;
+  }
+
+  .container-navbar {
+    margin: 0 40px;
+    padding: 15px;
+  }
+
+  .cards1 {
+    gap: 30px;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .menu {
+    gap: 30px;
+  }
+
+  .profil {
+    gap: 10px;
+  }
+
+  .img-profil {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+
+  .icon-profil {
+    font-size: 20px;
+  }
+}
+/* NAVBAR END----------------------------------------------------------------------------------- */
+
+/* SECTION MAIN START-------------------------------------------------------------------------------- */
+#main-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 3rem;
+  height: 450px;
+  background-image: linear-gradient(
+      to top,
+      rgba(24, 26, 28, 1),
+      70%,
+      transparent
+    ),
+    url(https://s3-alpha-sig.figma.com/img/246a/fe98/babc4d30c3cdb9f940b11d577eb50c60?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=a8bJ3u1~N0HddBbmGM20Q3DVAPc33EJ5tWBaoRJTOH2LQiGrPP2hPmFLtPVySgGJWpRexKqT~v5yi7iVOBzkvUrIzdK9Jbrd0Y~J207RiA9EkrJQZomYQRIlR6J5I4V70eeih7vHWfH1XdPoXLMSnjUORivImvutLNMMTljAlen1PoW10diMgnUz59Oku1sOsxaNPGaUXzfTFgKv3b3k-kKQQrm-8ErAPNIjy8a1k20-InBmjta1KC3O--I~1PToTXNTFsWQE5zmh0KvugrIzGcLwGVCTz60DnL~sK0Foy4lIujgkpmZOokqpVYZVL1ihpFltA~9IFa29g-Gs6zC1g__);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 70px;
+}
+
+.h1-main {
+  font-size: 50px;
+}
+
+.p-main {
+  margin-top: 20px;
+  text-align: left;
+  width: 60%;
+  font-size: 20px;
+}
+
+.p-main > p {
+  font-weight: 100;
+}
+
+.cards1-main {
+  text-align: left;
+}
+
+.cards2-main {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cards2-main > button {
+  padding: 10px;
+  width: 5rem;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(15, 30, 147, 1);
+  color: white;
+}
+
+.more {
+  background-color: rgba(34, 40, 42, 1);
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.more > p {
+  padding-right: 10px;
+}
+
+.icon-main {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.age {
+  border: 1px solid rgba(193, 194, 196, 1);
+  color: rgba(193, 194, 196, 1);
+  padding: 8px;
+  border-radius: 17px;
+}
+
+.svg-main {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 70px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 376px) {
+  #main-1 {
+    height: auto;
+    padding: 70px 20px;
+    padding-bottom: 40px;
+  }
+
+  .h1-main {
+    font-size: 25px;
+  }
+
+  .p-main {
+    font-size: 12px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .cards2-main > button {
+    padding: 8px;
+    width: auto;
+    font-size: 10px;
+    border-radius: 15px;
+  }
+
+  .cards2-main {
+    gap: 5px;
+  }
+
+  .more {
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+  
+  .more > p {
+    padding-right: 0px;
+  }
+
+  .icon-main {
+    padding-left: 0px;
+  }
+  
+  .age {
+    padding: 5px;
+    border-radius: 17px;
+    font-size: 10px
+  }
+  
+  .svg-main {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    right: 25px;
+  }
+  
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    #main-1 {
+      height: auto;
+      padding: 70px 20px;
+      padding-bottom: 40px;
+    }
+  
+    .h1-main {
+      font-size: 25px;
+    }
+  
+    .p-main {
+      font-size: 12px;
+      width: 100%;
+      overflow: hidden;
+    }
+  
+    .cards2-main > button {
+      padding: 8px;
+      width: auto;
+      font-size: 10px;
+      border-radius: 15px;
+    }
+  
+    .cards2-main {
+      gap: 5px;
+    }
+  
+    .more {
+      padding: 8px;
+      border-radius: 20px;
+      font-size: 10px;
+    }
+    
+    .more > p {
+      padding-right: 0px;
+    }
+  
+    .icon-main {
+      padding-left: 0px;
+    }
+    
+    .age {
+      padding: 5px;
+      border-radius: 17px;
+      font-size: 10px
+    }
+    
+    .svg-main {
+      width: 23px;
+      height: 23px;
+      position: absolute;
+      right: 25px;
+    }
+    
+  }
+
+  @media screen and (min-width: 425px) and (max-width: 768px) {
+    #main-1 {
+      height: auto;
+      padding: 70px 20px;
+      padding-bottom: 40px;
+    }
+  
+    .h1-main {
+      font-size: 30px;
+    }
+  
+    .p-main {
+      font-size: 15px;
+      width: 100%;
+      overflow: hidden;
+    }
+  
+    .cards2-main > button {
+      padding: 12px;
+      width: auto;
+      font-size: 10px;
+      border-radius: 15px;
+    }
+  
+    .cards2-main {
+      gap: 10px;
+    }
+  
+    .more {
+      padding: 12px;
+      border-radius: 20px;
+      font-size: 10px;
+    }
+    
+    .more > p {
+      padding-right: 0px;
+    }
+  
+    .icon-main {
+      padding-left: 0px;
+    }
+    
+    .age {
+      padding: 5px;
+      border-radius: 17px;
+      font-size: 14px
+    }
+    
+    .svg-main {
+      width: 27px;
+      height: 27px;
+      position: absolute;
+      right: 25px;
+    }
+    
+  }
+  
+
+
+/* SECTION MAIN END-------------------------------------------------------------------------------- */
+
+/* SECTION SECOND START-------------------------------------------------------------------------------- */
+#second-1 {
+  background-color: rgba(24, 26, 28, 1);
+  color: white;
+  height: 20rem;
+}
+
+.cards1-second {
+  font-size: 2rem;
+  padding: 70px 70px 20px;
+}
+
+.wrapper-cards2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cards2-second-1,
+.cards2-second-2,
+.cards2-second-3,
+.cards2-second-4 {
+  width: 323px;
+  height: 10rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: end;
+}
+
+.cards2-second-1 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/86eb/e770/66bd10e71fc69c2fb5c7719e382332a5?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Ugt3zBRq1ZUDwGSJpkfutvf~~uDHwQLbGmBpFW1anw7r1Lg8AqI9fvk4U0BAc5V-56gqk1SlNLJOMpMvmPS090vcyca5y43WJvxbEXHq0sSvCN9Cw7O9b97V-S5XkSUxchz0BDEs9zRUc5rUvjCYRTV4sxZWHFWe3NWSa4LSen3D5i878ZhdUTiUcCsGsr6Erb~ZCgsMWeKFVdP5c5tZBXsO-cjkC8mRPb2hu2EKgSnd3HN0ubG-DTJ-pU2A~XzZWJ740Swy6zuz7H4aORT50k4NYqlvOK3tOM5kb2i3Y1Qy6IFmJ5goOBovqJH5oadkOuKw9XFVkCAEvV23XCJGZg__);
+  background-position: center;
+  background-size: cover;
+}
+
+.cards2-second-2 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/fdae/75fc/f4e808f3cffddbd2b15078a0d9777436?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=IVfbIw6rvyC3o20aZ~IuMKblipSOYU9O8WNSSiClzubvTYwQQalD6TllTNg67MBbeNCLY077ysg7PRfKnS7k6D-UUHXt93Tv2ToEUMES~wb9Dl8lDLu1KbzlXiJm931hRz00JcQGLZ2mk0ITY24vW5NE3EAPQtTFEfY4jOzf~lzm6rFNcx~Lalpun5ax40PnW5QlTCe2wX4wpPWcf-Z~A96-AR8BuPyZ4eswMD~e6aT27zXu5q-B5IiUv4BE52HzkExeIH0Wj~ervJs~X5-F8dbPk1pFac0xKrGkvT87mrAjsDC4EIXN5H7ns6uMkxog7KUajg2t0wvyOiHsQhLEsA__);
+  background-size: cover;
+  background-position: center;
+}
+
+.cards2-second-3 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/7857/5e49/e54ac8753da97ded2039c47ee8caaaf0?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rTQeeQWgRajMOK73lOsqNq91m8QqPMb-Q1uFR5l47DhIzfRKaBSHceV8Vyu9RhoqEWTh7kFXVx6GD145M6C7DTOKdaZnXotqLGqQg9XtJ~SSowUtajenytiRb9lQSjERyKexBrEzHLKt6T~0c-4dGCOmO~gN2ZDWcfI3DtpgEpQFyRFLLClw0uR4iSFPI7dGmqXfCiCXnnD-puhWeaLiJSl7KVtN-weokwGnW~wdrvjJM9BUQ9suP2X-KDKrfLz-jnMejPkIaWkZ3U8cPaGp7XNHpQTpTNK5~XwtktwlLMK~11QHpwQaUwa5pgChQc-qprE8r5GrPqzy-n3jIlyoAw__);
+  background-size: cover;
+  background-position: center;
+}
+
+.cards2-second-4 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/63da/b28e/f5c4f26c259bc2c129eca379ddde6b6b?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=oYQNbJ5eoL8HIuPzd-F4xGuNiD6~d5Rq4shVCDOtuuCgVVVKxz~PMtdE~rlGTJB6KZZOYV2GJMSwKgXfSyKKtb~IxPw26ZHARjycTQMinYGIe9NTb8dPV0L2PXgg6Vya4lj-Ab7TtzNfI5UwX4DPkTDULgUtvBtEYS3pW48Wcbj0RI63uop-hbtBNtI-aZUZK5iPgoxfjyvWnjNqpzj4WOfSncLfxnNFzNJkowHOKp546v4ZOcyaQwi6xEcM7IU2LLVTwLoTaEy7oluF3evB8~Z1YYrvzj72D7bZxZQxlCsCrYx~slnQUzmSqPMSJsNavU6LBdMH7L4uANemtxJIqQ__);
+  background-size: cover;
+  background-position: center;
+}
+
+.compt {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+  padding: 20px;
+}
+
+.rating-film-second {
+  display: flex;
+  gap: 7px;
+}
